@@ -1,0 +1,105 @@
+body {
+    background: rgba(110, 163, 57, 0.384);
+}
+h2,h3 {
+    font-weight: 650 !important;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white !important;
+}
+@media(min-width: 768px){
+.nav-link:hover{
+    transform: scale(1.2) !important;
+}
+}
+#header .dropdown-item:hover {
+    background: green;
+    color: white;
+}
+#header .dropdown-menu {
+    background: rgba(91, 131, 91, 0.466);
+}
+#header .dropdown-item {
+    color: white !important;
+}
+#header .carousel-inner .carousel-caption h2 {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+} 
+.info-block h4 {
+    font-size: 1.2rem !important;
+}
+.info-block .price {
+    font-size: 1.4rem;
+}
+.info-block .btn-danger {
+    color: #ffffff;
+    font-weight: 700;
+}
+#sale h5 {
+    color: green;
+}
+#sale i {
+    color: rgba(5, 112, 5, 0.568);
+}
+#sale span {
+    font-weight: 600;
+}
+#contact {
+    background-image: url(../img/contact.jpg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+#contact h3 {
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+}
+#contact a {
+    font-weight: 700;
+}
+#contact .contact-now {
+    padding-top: 75px !important;
+}
+.btn-lightgreen {
+    background: green;
+    color: white;
+    font-weight: 500;
+}
+.entry h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: green;
+    margin-top: .5rem;
+}
+.entry strong {
+    color: green !important;
+}
+.testimonials {
+    background-color: rgba(5, 112, 5, 0.568);
+}
+.testimonials .carousel-item {
+    padding-left: 2rem;
+}
+.testimonials .testimonial-text{
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+.testimonials span {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+#footer .nav-link {
+    font-weight: 500 !important;
+}
+#footer .nav-link:hover {
+    transform: scale(1.15);
+    color: greenyellow !important;
+}
